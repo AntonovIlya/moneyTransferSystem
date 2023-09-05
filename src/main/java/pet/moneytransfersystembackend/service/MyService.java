@@ -13,9 +13,11 @@ public class MyService {
     private Amount amount;
 
     public CardRepository cardRepository;
+    public OperationRepository operationRepository;
 
-    public MyService(CardRepository cardRepository) {
+    public MyService(CardRepository cardRepository, OperationRepository operationRepository) {
         this.cardRepository = cardRepository;
+        this.operationRepository = operationRepository;
     }
 
     public OperationID transfer(TransferDTO transferDTO) {
@@ -26,7 +28,10 @@ public class MyService {
         if (cardRepository.getBalance(cardFrom.getNumber()) < amount.getValue()) {
             throw new ErrorTransferException(); //TODO проверка баланса (500)  + тело
         }
-        return new OperationID("1");
+
+        OperationID successOperation = new OperationID("1");
+        operationRepository.addOperation(successOperation);
+        return successOperation;
 
     }
 
