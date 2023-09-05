@@ -1,0 +1,810 @@
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 196
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918223",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 1000
+  }
+}
+
+<> 2023-09-05T153809.200.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 196
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918223",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 1002
+  }
+}
+
+<> 2023-09-05T153804.500.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 195
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918220",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 560
+  }
+}
+
+<> 2023-09-05T153754.400.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 195
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918223",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 560
+  }
+}
+
+<> 2023-09-05T153749.200.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 195
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918223",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 560
+  }
+}
+
+<> 2023-09-05T153653.200.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 195
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918223",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 560
+  }
+}
+
+<> 2023-09-05T153047.500.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 195
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918223",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 560
+  }
+}
+
+<> 2023-09-05T152353.500.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 195
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918223",
+  "cardToNumber": "5536913919918220",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 560
+  }
+}
+
+<> 2023-09-05T152348.400.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 195
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918220",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 560
+  }
+}
+
+<> 2023-09-05T152338.400.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 195
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918223",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 560
+  }
+}
+
+<> 2023-09-05T151854.500.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 198
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918223",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 100000
+  }
+}
+
+<> 2023-09-05T151336.200.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 198
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918223",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 100000
+  }
+}
+
+<> 2023-09-05T151313.200.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 197
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918223",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 10000
+  }
+}
+
+<> 2023-09-05T151307.200.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 194
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918223",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 10
+  }
+}
+
+<> 2023-09-05T151300.200.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 194
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918223",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 10
+  }
+}
+
+<> 2023-09-05T151032.500.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 194
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918223",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 10
+  }
+}
+
+<> 2023-09-05T150952.500.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918223",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+<> 2023-09-05T150937.500.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918220",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+<> 2023-09-05T150931.400.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918220",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+<> 2023-09-05T145423.400.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918220",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+<> 2023-09-05T145308.400.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918220",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+<> 2023-09-05T145307.400.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918220",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+<> 2023-09-05T145306.400.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918220",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+<> 2023-09-05T145304.400.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918220",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+<> 2023-09-05T145126.400.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918223",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+<> 2023-09-05T145122.200.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918220",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+<> 2023-09-05T144249.400.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918223",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+<> 2023-09-05T144242.200.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918220",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+<> 2023-09-05T143506.400.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918223",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+<> 2023-09-05T143453.200.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918220",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+<> 2023-09-05T130302.400.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918223",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+<> 2023-09-05T130254.200.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 201
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "55369139199182230",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+<> 2023-09-05T124721.400.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5536913919918223",
+  "cardToNumber": "5536913919918224",
+  "cardFromCVV": "502",
+  "cardFromValidTill": "12/28",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+<> 2023-09-05T124710.200.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5454545454545454",
+  "cardToNumber": "3333333333333333",
+  "cardFromCVV": "324",
+  "cardFromValidTill": "11/26",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+<> 2023-09-05T124556.400.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5454545454545454",
+  "cardToNumber": "3333333333333333",
+  "cardFromCVV": "324",
+  "cardFromValidTill": "11/26",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+<> 2023-09-05T114859.200.json
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5454545454545454",
+  "cardToNumber": "3333333333333333",
+  "cardFromCVV": "324",
+  "cardFromValidTill": "11/26",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+###
+
+POST http://localhost:5500/transfer
+Content-Type: application/json
+Content-Length: 200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cardFromNumber": "5454545454545454",
+  "cardToNumber": "3333333333333333",
+  "cardFromCVV": "324",
+  "cardFromValidTill": "11/26",
+  "amount": {
+    "currency": "RUR",
+    "value": 12321300
+  }
+}
+
+###
+

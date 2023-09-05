@@ -32,4 +32,8 @@ public class CardRepository {
     public boolean validateCard(Card card) {
         return cards.containsKey(Long.parseLong(card.getNumber()));
     }
+
+    public long getBalance(String number) {
+        return cards.get(Long.parseLong(number)).getBalance();
+    }
 }

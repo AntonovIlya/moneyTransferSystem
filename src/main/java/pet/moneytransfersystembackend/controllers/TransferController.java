@@ -1,6 +1,9 @@
 package pet.moneytransfersystembackend.controllers;
 
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import pet.moneytransfersystembackend.repository.OperationID;
 import pet.moneytransfersystembackend.repository.TransferDTO;
 import pet.moneytransfersystembackend.service.MyService;
@@ -18,7 +21,5 @@ public class TransferController {
     @PostMapping
     public OperationID transfer(@RequestBody TransferDTO transferDTO) {
         return service.transfer(transferDTO);
-        //TODO как вернуть несколько разных ответов? 200, 400, 500 с объектами? Через Exceptions + передаём данные в него
-
     }
 }
