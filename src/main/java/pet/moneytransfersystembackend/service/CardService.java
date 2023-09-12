@@ -1,12 +1,13 @@
 package pet.moneytransfersystembackend.service;
 
 import org.springframework.stereotype.Service;
-import pet.moneytransfersystembackend.exceptions.ErrorInputDataException;
-import pet.moneytransfersystembackend.exceptions.ErrorTransferException;
+import pet.moneytransfersystembackend.exception.ErrorConfirmationException;
+import pet.moneytransfersystembackend.exception.ErrorInputDataException;
+import pet.moneytransfersystembackend.exception.ErrorTransferException;
 import pet.moneytransfersystembackend.repository.*;
 
 @Service
-public class MyService {
+public class CardService {
 
     private Card cardFrom;
     private Card cardTo;
@@ -15,7 +16,7 @@ public class MyService {
     public CardRepository cardRepository;
     public OperationRepository operationRepository;
 
-    public MyService(CardRepository cardRepository, OperationRepository operationRepository) {
+    public CardService(CardRepository cardRepository, OperationRepository operationRepository) {
         this.cardRepository = cardRepository;
         this.operationRepository = operationRepository;
     }
@@ -23,13 +24,13 @@ public class MyService {
     public OperationID transfer(TransferDTO transferDTO) {
         parseDTO(transferDTO);
         if (!cardRepository.validateCard(cardFrom) || !cardRepository.validateCard(cardTo)) {
-            throw new ErrorInputDataException(); //TODO 400 Обработать ответное сообщение отправ/получатель
+            throw new ErrorInputDataException("Incorrect card number");
         }
         if (cardRepository.getBalance(cardFrom.getNumber()) < amount.getValue()) {
-            throw new ErrorTransferException(); //TODO проверка баланса (500)  + тело
+            throw new ErrorTransferException("Error transfer");
         }
 
-        OperationID successOperation = new OperationID("1");
+        OperationID successOperation = new OperationID("12345");
         operationRepository.addOperation(successOperation);
         return successOperation;
 
@@ -39,5 +40,15 @@ public class MyService {
         cardFrom = cardRepository.parseCardFrom(transferDTO);
         cardTo = cardRepository.parseCardTo(transferDTO);
         amount = transferDTO.getAmount();
+    }
+
+    public OperationID confirm(VerificationCode verificationCode) {
+        if (!operationRepository.validOperationID(verificationCode.getOperationId())) {
+            throw new ErrorConfirmationException("Invalid operationId");
+        }
+        if (verificationCode.getCode().length() != 4) {
+            throw new ErrorInputDataException("Incorrect verification code");
+        }
+        return operationRepository.getOperationID(Integer.parseInt(verificationCode.getOperationId()));
     }
 }

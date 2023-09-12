@@ -1,4 +1,4 @@
-package pet.moneytransfersystembackend.exceptions;
+package pet.moneytransfersystembackend.exception;
 
 public class ErrorResponse {
 

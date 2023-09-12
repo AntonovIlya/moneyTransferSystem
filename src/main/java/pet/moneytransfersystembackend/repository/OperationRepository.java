@@ -21,4 +21,8 @@ public class OperationRepository {
     public void addOperation(OperationID operationID) {
         operationIDs.put(Integer.parseInt(operationID.getOperationId()), operationID);
     }
+
+    public OperationID getOperationID (int operationID) {
+        return operationIDs.get(operationID);
+    }
 }
