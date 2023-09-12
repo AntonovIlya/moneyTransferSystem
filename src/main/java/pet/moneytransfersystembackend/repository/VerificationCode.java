@@ -5,9 +5,6 @@ public class VerificationCode {
     private String operationId;
     private String code;
 
-    public VerificationCode() {
-    }
-
     public VerificationCode(String operationId, String code) {
         this.operationId = operationId;
         this.code = code;
