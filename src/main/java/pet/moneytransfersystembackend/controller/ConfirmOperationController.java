@@ -20,7 +20,6 @@ public class ConfirmOperationController {
 
     @PostMapping
     public OperationID confirmOperation(@RequestBody VerificationCode verificationCode) {
-        System.out.println();
         return cardService.confirm(verificationCode);
     }
 }

@@ -1,6 +1,8 @@
 package pet.moneytransfersystembackend.repository;
 
 import org.springframework.stereotype.Repository;
+import pet.moneytransfersystembackend.logger.LogLevel;
+import pet.moneytransfersystembackend.logger.Logger;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -9,12 +11,11 @@ import java.util.concurrent.ConcurrentHashMap;
 public class CardRepository {
 
     private final Map<Long, Card> cards;
+    private Logger logger = new Logger();
 
     public CardRepository() {
         cards = new ConcurrentHashMap<>();
-        //TODO Реализовать фабрику
-
-        // Упрощённая БД
+        logger.log(LogLevel.INFO, this.getClass().getName(),"Create DB");
         cards.put(5536913919918223L, new Card("5536913919918223", "502", "12/28", 1000L));
         cards.put(5536913919918224L, new Card("5536913919918224"));
     }
