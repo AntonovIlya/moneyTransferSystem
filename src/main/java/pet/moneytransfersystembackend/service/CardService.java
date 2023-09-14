@@ -14,7 +14,7 @@ public class CardService {
     private Card cardFrom;
     private Card cardTo;
     private Amount amount;
-    private Logger logger = new Logger();
+    private final Logger logger = new Logger();
 
     public final CardRepository cardRepository;
     public final OperationRepository operationRepository;
@@ -26,12 +26,12 @@ public class CardService {
 
     public OperationID transfer(TransferDTO transferDTO) {
         parseDTO(transferDTO);
-        logger.log(LogLevel.DEBUG, this.getClass().getName(),"Validate cards");
-        if (!cardRepository.validateCard(cardFrom) || !cardRepository.validateCard(cardTo)) {
+        if (cardRepository.validateCard(cardFrom) || cardRepository.validateCard(cardTo)) {
+            logger.log(LogLevel.ERROR, this.getClass().getName(),"Incorrect card number");
             throw new ErrorInputDataException("Incorrect card number");
         }
-        logger.log(LogLevel.DEBUG, this.getClass().getName(),"Balance check");
         if (cardRepository.getBalance(cardFrom.getNumber()) < amount.getValue()) {
+            logger.log(LogLevel.ERROR, this.getClass().getName(),"Error transfer");
             throw new ErrorTransferException("Error transfer");
         }
 
@@ -49,12 +49,13 @@ public class CardService {
     }
 
     public OperationID confirm(VerificationCode verificationCode) {
-        logger.log(LogLevel.DEBUG, this.getClass().getName(),"Validate operationId");
+        logger.log(LogLevel.DEBUG, this.getClass().getName(),"Confirm operation");
         if (!operationRepository.validOperationID(verificationCode.getOperationId())) {
+            logger.log(LogLevel.ERROR, this.getClass().getName(),"Invalid operationId");
             throw new ErrorConfirmationException("Invalid operationId");
         }
-        logger.log(LogLevel.DEBUG, this.getClass().getName(),"Validate verificationCode");
         if (verificationCode.getCode().length() != 4) {
+            logger.log(LogLevel.ERROR, this.getClass().getName(),"Incorrect verification code");
             throw new ErrorInputDataException("Incorrect verification code");
         }
         return operationRepository.getOperationID(Integer.parseInt(verificationCode.getOperationId()));

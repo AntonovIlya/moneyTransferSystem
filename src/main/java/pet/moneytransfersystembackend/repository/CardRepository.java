@@ -11,10 +11,10 @@ import java.util.concurrent.ConcurrentHashMap;
 public class CardRepository {
 
     private final Map<Long, Card> cards;
-    private Logger logger = new Logger();
 
     public CardRepository() {
         cards = new ConcurrentHashMap<>();
+        Logger logger = new Logger();
         logger.log(LogLevel.INFO, this.getClass().getName(),"Create DB");
         cards.put(5536913919918223L, new Card("5536913919918223", "502", "12/28", 1000L));
         cards.put(5536913919918224L, new Card("5536913919918224"));
@@ -31,7 +31,7 @@ public class CardRepository {
     }
 
     public boolean validateCard(Card card) {
-        return cards.containsKey(Long.parseLong(card.getNumber()));
+        return !cards.containsKey(Long.parseLong(card.getNumber()));
     }
 
     public long getBalance(String number) {
