@@ -58,6 +58,10 @@ public class CardService {
             logger.log(LogLevel.ERROR, this.getClass().getName(),"Incorrect verification code");
             throw new ErrorInputDataException("Incorrect verification code");
         }
+        logger.log(LogLevel.INFO, this.getClass().getName(),"Debiting funds from the card "
+                + cardFrom.getNumber() + " in the amount of " + amount.getValue() + " " + amount.getCurrency());
+        logger.log(LogLevel.INFO, this.getClass().getName(),"Crediting funds to card "
+                + cardTo.getNumber() + " in the amount of " + amount.getValue() + " " + amount.getCurrency());
         return operationRepository.getOperationID(Integer.parseInt(verificationCode.getOperationId()));
     }
 }
